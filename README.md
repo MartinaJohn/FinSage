@@ -4,7 +4,7 @@
 The project supports the following features,
 The goal of our study is to apply AI to forecast and lessen the effects of economic downturns. AI, in our opinion, can offer insightful information and predictive powers that can better assist governments and companies in anticipating and responding to economic downturns.
 <img src='Screenshot 2023-11-21 001929.png'>
-
+<img src='Screenshot 2023-11-21 001953.png'>
 
 
 
@@ -31,7 +31,7 @@ The goal of our study is to apply AI to forecast and lessen the effects of econo
 #### Predict health cost
 
 ```http
-  GET /predict
+  POST GET /predict
 ```
 
 
