@@ -1,8 +1,9 @@
 
-# AI for solving economic downturns
+# FINSAGE- AI for solving economic downturns
 
-The project supports the following features,
-The goal of our study is to apply AI to forecast and lessen the effects of economic downturns. AI, in our opinion, can offer insightful information and predictive powers that can better assist governments and companies in anticipating and responding to economic downturns.
+The goal of our project is to apply AI to forecast and lessen the effects of economic downturns. 
+
+# Sceenshots
 <img src='Screenshot 2023-11-21 003121.png'>
 
 
@@ -54,6 +55,12 @@ The goal of our study is to apply AI to forecast and lessen the effects of econo
 
 Run requirements.txt and start the project -
 python app.py
+
+# Tech Stack
+Frontend: HTML, CSS and JavaScript
+
+Backend: Flask, Python
+
 ## Authors
 
 - [@suzandsouza](https://www.github.com/suzandsouza)
