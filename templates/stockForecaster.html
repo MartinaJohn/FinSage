@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gradio Client</title>
+</head>
+<body>
+    <form method="POST">
+        <label for="ticker">Ticker:</label><br>
+        <input type="text" id="ticker" name="ticker"><br>
+        <label for="date">Date:</label><br>
+        <input type="text" id="date" name="date"><br>
+        <label for="n_weeks">n_weeks:</label><br>
+        <input type="number" id="n_weeks" name="n_weeks"><br>
+        <label for="use_latest_basic_financials">Use Latest Basic Financials:</label><br>
+        <input type="checkbox" id="use_latest_basic_financials" name="use_latest_basic_financials"><br>
+        <input type="submit" value="Submit">
+    </form>
+    {% if result %}
+    <h1>Result</h1>
+    <p>{{ result }}</p>
+    {% endif %}
+</body>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+  }
+
+  h1 {
+      color: #333;
+  }
+
+  form {
+      margin: 20px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  input[type=text], input[type=number], input[type=checkbox] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+  }
+  input[type=text]:focus, input[type=number]:focus, input[type=checkbox]:focus {
+      border-color: #007BFF;
+  }
+
+  button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 10px;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s;
+  }
+
+  button:hover {
+      background-color: #0056b3;
+  }
+
+  .result-box {
+      margin: 20px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+</style>
+</html>
